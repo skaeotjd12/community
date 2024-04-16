@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class test {
 	
 	@GetMapping
-	public String name() {
+	public String name12() {
 		return "get";
 	}
 	
