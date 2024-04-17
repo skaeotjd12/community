@@ -12,9 +12,14 @@ public class test {
 	}
 	
 
+	@GetMapping("/test")
+	public String name123333() {
+		return "get";
+
 	@GetMapping
 	public String name12() {
 		return "sdsd";
+
 	}
 	
 }
