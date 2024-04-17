@@ -1,4 +1,3 @@
 
 
-### Maven ###
-community/target/**
+community\target\*
