@@ -11,6 +11,11 @@ public class test {
 		return "get";
 	}
 	
+	@GetMapping("/test")
+	public String name123333() {
+		return "get";
+	}
+	
 }
 
 
