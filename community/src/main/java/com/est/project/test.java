@@ -22,6 +22,12 @@ public class test {
 
 	}
 	
+	@GetMapping
+	public String name123() {
+		return "sdsd";
+
+	}
+	
 }
 
 
