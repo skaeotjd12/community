@@ -10,4 +10,14 @@ public class SampleController {
 	public String name() {
 		return "common/log";
 	}
+	
+	@GetMapping("log")
+	public String wdw() {
+		return "common/log";
+	}
+	
+	@GetMapping("log")
+	public String wdwd() {
+		return "common/log";
+	}
 }
