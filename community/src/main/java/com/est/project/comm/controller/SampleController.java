@@ -11,4 +11,8 @@ public class SampleController {
 	public String name() {
 		return "common/log";
 	}
+	@GetMapping("/log")
+	public String assa() {
+		return "common/log";
+	}
 }
